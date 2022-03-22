@@ -1,0 +1,16 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+  <h1><%= @article.title %></h1>
+  <br>
+  <div class='article'>
+    <h2><%= @article.content %></h2>
+    <%= link_to 'Update the article', edit_article_path(@article), class:'btn-add' %>
+  </div>
+  <div class='btn-back'>
+    <%= link_to '<< back', articles_path %>
+  </div>
+</div>

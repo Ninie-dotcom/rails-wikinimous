@@ -1,0 +1,14 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+  <h1>Update a article</h1>
+
+  <%= simple_form_for(@article) do |f| %>
+    <%= f.input :title %>
+    <%= f.input :content %>
+    <%= f.submit "Update" %>
+  <% end %>
+</div>
